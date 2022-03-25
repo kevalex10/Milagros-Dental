@@ -8,6 +8,7 @@ public class Video
 {
     public CategoryType Category;
     public string Title;
+    public string VideoURL;
     public Sprite Image;
 
     public List<VideoContent> Content;

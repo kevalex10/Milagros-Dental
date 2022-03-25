@@ -81,7 +81,6 @@ public class Category : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
 
     public void ShowVideos()
     {
-        //Handheld.PlayFullScreenMovie("My Movie 9.mov", Color.black, FullScreenMovieControlMode.Full, FullScreenMovieScalingMode.AspectFill);
         AppManager.Instance.ShowVideos(this);
     }
 

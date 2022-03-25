@@ -5,7 +5,6 @@ using UnityEngine;
 using TMPro;
 using DG.Tweening;
 using UnityEngine.UI;
-using DeadMosquito.AndroidGoodies;
 
 public class AppManager : MonoBehaviour
 {
@@ -23,6 +22,7 @@ public class AppManager : MonoBehaviour
     public GameObject MainPanel;
     public GameObject VideosListPanel;
     public GameObject VideosPanel;
+    public GameObject LoadingPanel;
 
     [Header("UI Panel Containers")]
     public GameObject CategoriesContainer;
@@ -33,6 +33,8 @@ public class AppManager : MonoBehaviour
     public TextMeshProUGUI VideoListPanelHeader;
     public TextMeshProUGUI VideoPanelContentHeader;
     public Image VideoPanelHeaderImage;
+    public GameObject PlayButtonImage;
+    public Button PlayButton;
 
     [Header("Scriptable Objects")]
     public VideosListScriptableObject VideosListScriptableObject;
@@ -44,6 +46,9 @@ public class AppManager : MonoBehaviour
     public const float PANEL_TWEEN_TIME = 0.2f;
 
     public static AppManager Instance;
+
+    // The active video lesson that's currently open
+    private Video ActiveVideo;
 
     private void Awake()
     {
@@ -96,6 +101,12 @@ public class AppManager : MonoBehaviour
             videoListItem.Video = video;
         }
     }
+
+    [Obsolete]
+    public void PlayActiveVideo()
+    {
+        VideoManager.Instance.PlayVideo(ActiveVideo.VideoURL);
+    }
     #endregion
 
     #region UI Methods
@@ -112,6 +123,8 @@ public class AppManager : MonoBehaviour
     public void ReturnToHome()
     {
         Toolbar.Instance.Show();
+        Toolbar.Instance.HideBackButton();
+        SearchField.SetTextWithoutNotify("");
         ShowPanel(MainPanel);
     }
 
@@ -124,7 +137,7 @@ public class AppManager : MonoBehaviour
     {
         StartCoroutine(IShowVideos(SearchField.text));
     }
-    
+
     public void ShowVideos(Category category)
     {
         StartCoroutine(IShowVideos(category));
@@ -132,8 +145,29 @@ public class AppManager : MonoBehaviour
 
     public void ShowVideo(Video video)
     {
+        // If lesson has no video, disable the button
+        PlayButton.interactable = !string.IsNullOrEmpty(video.VideoURL);
+        PlayButtonImage.SetActive(PlayButton.interactable);
+        ActiveVideo = video;
+
         Toolbar.Instance.Hide();
         StartCoroutine(IShowVideo(video));
+    }
+
+    public void ShowLoadingPanel()
+    {
+        LoadingPanel.SetActive(true);
+        LoadingPanel.GetComponent<CanvasGroup>().DOFade(SHOW_ALPHA_VALUE, PANEL_TWEEN_TIME).SetEase(Ease.Linear);
+    }
+
+    public void HideLoadingPanel()
+    {
+        LoadingPanel.GetComponent<CanvasGroup>().DOFade(HIDE_ALPHA_VALUE, PANEL_TWEEN_TIME).SetEase(Ease.Linear).OnComplete(() => { LoadingPanel.SetActive(false); });
+    }
+
+    public void UpdateLoadingProgress(int progress)
+    {
+        LoadingPanel.transform.GetChild(0).GetComponent<TextMeshProUGUI>().SetText($"Loading Video: {progress}%");
     }
     #endregion
 
@@ -147,6 +181,11 @@ public class AppManager : MonoBehaviour
             {
                 HidePanel(panel);
             }
+        }
+
+        if(panelToShow != MainPanel)
+        {
+            Toolbar.Instance.ShowBackButton();
         }
 
         yield return new WaitForSeconds(PANEL_TWEEN_TIME);
@@ -250,7 +289,7 @@ public class AppManager : MonoBehaviour
     #region Haptics
     public void VibrateButtonClick()
     {
-        // TODO: Implement haptics.
+        // TODO: Implement haptics
         //////Debug.Log("Vibrate!");
         //////HapticPatterns.PlayPreset(HapticPatterns.PresetType.Selection);
         //////Handheld.Vibrate();

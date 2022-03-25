@@ -6,6 +6,7 @@ public class Toolbar : MonoBehaviour
 {
     [Header("UI References")]
     public Image BackButton;
+    public Image BackButtonIcon;
     public GameObject SearchBar;
 
     private CanvasGroup _CanvasGroup;
@@ -29,5 +30,15 @@ public class Toolbar : MonoBehaviour
     {
         _CanvasGroup.DOFade(0f, AppManager.PANEL_TWEEN_TIME).SetEase(Ease.Linear).OnComplete(()=> { SearchBar.SetActive(false); });
         BackButton.DOFade(0.87f, AppManager.PANEL_TWEEN_TIME).SetEase(Ease.Linear);
+    }
+
+    public void ShowBackButton()
+    {
+        BackButtonIcon.DOFade(AppManager.SHOW_ALPHA_VALUE, AppManager.PANEL_TWEEN_TIME);
+    }
+
+    public void HideBackButton()
+    {
+        BackButtonIcon.DOFade(AppManager.HIDE_ALPHA_VALUE, AppManager.PANEL_TWEEN_TIME);
     }
 }

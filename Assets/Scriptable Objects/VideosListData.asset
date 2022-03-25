@@ -15,6 +15,7 @@ MonoBehaviour:
   Videos:
   - Category: 0
     Title: Dentition
+    VideoURL: 
     Image: {fileID: 21300000, guid: 2e3061d9c0c41744c9c9a96e81378807, type: 3}
     Content:
     - RichText: "<b>Dentition is the teeth in the dental arch.\r</b>\n\r\n<b>There
@@ -57,6 +58,7 @@ MonoBehaviour:
       Image: {fileID: 21300000, guid: 186af9652deffa043a00ca94a5d7b85d, type: 3}
   - Category: 1
     Title: Dental Assistant Positioning
+    VideoURL: https://streamable.com/l/nxqcgq/mp4.mp4
     Image: {fileID: 21300000, guid: 7fffef8e54478d74cbb225de64dc1b6b, type: 3}
     Content:
     - RichText: "<b>The positioning of the dental assistant is important to stay
@@ -68,16 +70,18 @@ MonoBehaviour:
       Image: {fileID: 0}
   - Category: 1
     Title: Operator Positioning
+    VideoURL: https://streamable.com/l/oykxk3/mp4.mp4
     Image: {fileID: 21300000, guid: 5b05ebbb945989749b08190391c3d5dc, type: 3}
     Content:
     - RichText: "<b>The positioning of the operator is important to avoid suffering
         from musculoskeletal pain.\r\n\r\n<#2899CC>What you need:\r</color></b>\n\n\t-Dental
-        stool\r\n\r\n<b>Follow these steps when positioning the operator.\r\n\r\n<#FDB924>Steps:\r</color></b>\n\t1)
+        stool\r\n\r\n<b>Follow these steps when positioning the operator.\r\n\r\n<#FDB924>Steps:\r</color></b>\n\n\t1)
         Support back in backrest of the chair.\r\n\r\t2) Thighs parallel to floor.\r\n\r\t3)
         Feet flat on the floor.\r\n\r\t4) Forearms parallel to the floor.\r\n"
       Image: {fileID: 0}
   - Category: 2
     Title: Instrument Processing
+    VideoURL: https://streamable.com/l/mjt9e9/mp4.mp4
     Image: {fileID: 21300000, guid: 9e051ffaf0125844882ed6ad19bf9174, type: 3}
     Content:
     - RichText: "<b>Instrument processing is the procedure in which contaminated
@@ -97,6 +101,7 @@ MonoBehaviour:
       Image: {fileID: 0}
   - Category: 2
     Title: PPE
+    VideoURL: https://streamable.com/l/vzqbjd/mp4.mp4
     Image: {fileID: 21300000, guid: e40470b16f3a105478dc5785de5708c5, type: 3}
     Content:
     - RichText: "<b>In dentistry, the ppe is used to prevent contact with microorganisms.
@@ -110,6 +115,7 @@ MonoBehaviour:
       Image: {fileID: 0}
   - Category: 2
     Title: Room Disinfection
+    VideoURL: https://streamable.com/l/uxm76i/mp4.mp4
     Image: {fileID: 21300000, guid: 98a8b025b1ba0a84296aa95d7f93ab0f, type: 3}
     Content:
     - RichText: "<b>Room disinfection is the process in which we clean all contaminated
@@ -126,6 +132,7 @@ MonoBehaviour:
       Image: {fileID: 0}
   - Category: 3
     Title: Alginate Impressions
+    VideoURL: https://streamable.com/l/7jacgm/mp4.mp4
     Image: {fileID: 21300000, guid: 88915ad9eae51074fab973dd2ddf21ee, type: 3}
     Content:
     - RichText: "<b>Alginate impressions is a detailed reproduction of the oral tissues
@@ -148,6 +155,7 @@ MonoBehaviour:
       Image: {fileID: 0}
   - Category: 4
     Title: Mixing Glass Ionomer
+    VideoURL: https://streamable.com/l/wqbhgf/mp4.mp4
     Image: {fileID: 21300000, guid: 346e0661ba4116f458c12936a612860e, type: 3}
     Content:
     - RichText: "<b>Glass ionomer is a type of cement used in dentistry.</b>\r\n\r\n<#2899CC><b>What
@@ -160,6 +168,7 @@ MonoBehaviour:
       Image: {fileID: 0}
   - Category: 4
     Title: Mixing IRM
+    VideoURL: https://streamable.com/l/3kculj/mp4.mp4
     Image: {fileID: 21300000, guid: 403c314b041e36340b8df341912e578b, type: 3}
     Content:
     - RichText: "<b>The Intermediate Restorative Material (IRM) is recommended as
@@ -173,6 +182,7 @@ MonoBehaviour:
       Image: {fileID: 0}
   - Category: 5
     Title: Prophylaxis (Coronal Polishing)
+    VideoURL: https://streamable.com/l/z8zz6n/mp4.mp4
     Image: {fileID: 21300000, guid: 5e4c3ecac8e8df0409e6f930b5d62b83, type: 3}
     Content:
     - RichText: "<b>Prophylaxis or coronal polishing is used to remove plaque or
@@ -194,6 +204,7 @@ MonoBehaviour:
       Image: {fileID: 0}
   - Category: 5
     Title: Sealants
+    VideoURL: https://streamable.com/l/sqd6hy/mp4.mp4
     Image: {fileID: 21300000, guid: e1777ae82bf05c54680c72affcf779c0, type: 3}
     Content:
     - RichText: "<b>Dental sealants are a protective coat placed in the pits and
@@ -219,6 +230,7 @@ MonoBehaviour:
       Image: {fileID: 0}
   - Category: 6
     Title: Assisting in Placement of Stainless Steel Crown (SSC)
+    VideoURL: https://streamable.com/l/d6903n/mp4.mp4
     Image: {fileID: 21300000, guid: 7b71aaacc824a594bb7a855dc6fb7e46, type: 3}
     Content:
     - RichText: "<b>Stainless steel crowns are used to covered severely decayed and
@@ -247,6 +259,7 @@ MonoBehaviour:
       Image: {fileID: 0}
   - Category: 6
     Title: Assisting in a Class I Restoration
+    VideoURL: https://streamable.com/l/23ebib/mp4.mp4
     Image: {fileID: 21300000, guid: 2658ed8b7b65d43469f5a61956cd8549, type: 3}
     Content:
     - RichText: "<b>Class I restorations are those the includes the occlusal surface
@@ -284,6 +297,7 @@ MonoBehaviour:
       Image: {fileID: 0}
   - Category: 6
     Title: Assisting in a Class II Restoration
+    VideoURL: https://streamable.com/l/si0aku/mp4.mp4
     Image: {fileID: 21300000, guid: f2a13ba518124d542a9aca7af6c38a2d, type: 3}
     Content:
     - RichText: "<b>Class II restorations are those the includes the inter-proximal
@@ -302,27 +316,28 @@ MonoBehaviour:
         and to ready the next materials and instruments.\r\n\r\n<#FDB924><b>Steps:</b></color>\r\n\r\n\t1)
         Adjust the light\r\n\t2) Dentist will examine tooth to be prepared.\r\n\t3)
         Assist in administration of topical and local anesthetic\r\n\t4) Place isolation
-        system\r\n\t5) Dentist prepares cavity using the mirror and hand-pieces with
-        a cutting bur\r\n\t6) Use the air/water syringe to blow air into the mirror\r\n\t7)
-        Transfer spoon excavator if needed\r\n\t8) Rinse and dry the preparation
-        for the dentist to evaluate\r\n\t9) When the preparation is completed, if
-        a base or liner is needed, mix and transfer\r\n\t10) Select proper size for
-        the matrix band and number of wedges needed and assist or placed them\r\n\t11)
-        Transfer etching agent and use HVE tip when rinsing\r\n\t12) Transfer bonding
-        agent and light cure\r\n\t13) Transfer flowable composite and light cure\r\n\t14)
-        Transfer composite with the composite placement instrument\r\n\t15) Transfer
-        ball burnisher and acorn as needed\r\n\t16) Light cure as needed\r\n\t17)
-        Transfer sealant\r\n\t18) Light cure\r\n\t19) Assist in removal of matrix
-        band and wedge\r\n\t20) Light cure\r\n\t21) Dentist will use high speed hand-piece
-        with finishing burs\r\n\t22) Remove isolation system and use saliva ejector\r\n\t23)
-        Position articulating paper and instruct patient to \u201Ctap\u201D teeth
-        together and move bite from side to side\r\n\t24) Dentist will adjust occlusion
-        with high speed hand piece while dental assistant uses HVE and retracts cheek
-        (repeat step as necessary)\r\n\t25) Transfer cotton roll to clean surface
-        of restoration"
+        system\r\n\t5) Dentist prepares cavity using the mirror and \r\n\thand-pieces
+        with a cutting bur\r\n\t6) Use the air/water syringe to blow air into the
+        mirror\r\n\t7) Transfer spoon excavator if needed\r\n\t8) Rinse and dry the
+        preparation for the dentist to evaluate\r\n\t9) When the preparation is completed,
+        if a base \r\n\tor liner is needed, mix and transfer\r\n\t10) Select proper
+        size for the matrix band and \r\n\tnumber of wedges needed and assist or
+        placed them\r\n\t11) Transfer etching agent and use HVE tip when rinsing\r\n\t12)
+        Transfer bonding agent and light cure\r\n\t13) Transfer flowable composite
+        and light cure\r\n\t14) Transfer composite with the composite \r\n\tplacement
+        instrument\r\n\t15) Transfer ball burnisher and acorn as needed\r\n\t16)
+        Light cure as needed\r\n\t17) Transfer sealant\r\n\t18) Light cure\r\n\t19)
+        Assist in removal of matrix band and wedge\r\n\t20) Light cure\r\n\t21) Dentist
+        will use high speed hand-piece with finishing burs\r\n\t22) Remove isolation
+        system and use saliva ejector\r\n\t23) Position articulating paper and instruct
+        patient \r\n\tto \u201Ctap\u201D teeth together and move bite from side to
+        side\r\n\t24) Dentist will adjust occlusion with high speed \r\n\thand piece
+        while dental assistant uses HVE and \r\n\tretracts cheek (repeat step as
+        necessary)\r\n\t25) Transfer cotton roll to clean surface of restoration"
       Image: {fileID: 0}
   - Category: 6
     Title: Assisting in a Class III or IV Restoration
+    VideoURL: https://streamable.com/l/7yx7qr/mp4.mp4
     Image: {fileID: 21300000, guid: afcc7161d3591074ba6d47765cf4b94e, type: 3}
     Content:
     - RichText: "<b>Class III restorations are those that include inter-proximal
@@ -364,6 +379,7 @@ MonoBehaviour:
       Image: {fileID: 0}
   - Category: 6
     Title: Assisting in a Pulpotomy of a Primary Tooth
+    VideoURL: https://streamable.com/l/oacxat/mp4.mp4
     Image: {fileID: 21300000, guid: 472f30935534e1a4ca4a8cbb1ce02288, type: 3}
     Content:
     - RichText: "<b>Pulpotomy is the removal of the coronal portion of the dental
@@ -386,6 +402,7 @@ MonoBehaviour:
       Image: {fileID: 0}
   - Category: 6
     Title: Assisting in Forceps Extraction
+    VideoURL: https://streamable.com/l/7c7uw6/mp4.mp4
     Image: {fileID: 21300000, guid: c55ef9a9b8fd8634f93fa777ea9c6822, type: 3}
     Content:
     - RichText: "<b>A forceps extraction is performed on a tooth that is fully erupted
