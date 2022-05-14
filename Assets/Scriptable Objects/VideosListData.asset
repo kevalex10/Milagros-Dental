@@ -45,7 +45,7 @@ MonoBehaviour:
       Image: {fileID: 0}
     - RichText: 
       Image: {fileID: 21300000, guid: af4b0beb772f65e42826d07907f4dc32, type: 3}
-    - RichText: "\t2) Maxillary arch (upper)\r"
+    - RichText: "\t2) Mandibular arch (lower)"
       Image: {fileID: 0}
     - RichText: 
       Image: {fileID: 21300000, guid: ad321b94fb1057c44b7a7e27a0bdea80, type: 3}
@@ -104,7 +104,7 @@ MonoBehaviour:
     VideoURL: https://streamable.com/l/vzqbjd/mp4.mp4
     Image: {fileID: 21300000, guid: e40470b16f3a105478dc5785de5708c5, type: 3}
     Content:
-    - RichText: "<b>In dentistry, the ppe is used to prevent contact with microorganisms.
+    - RichText: "<b>In dentistry, the PPE is used to prevent contact with microorganisms.
         This will be used during patient care, operator cleanup, and instrument processing.\r</b>\n\r\n<#2899CC><b>What
         you need:\r</b></color>\n\n\t-Protective clothing\r\n\t-Mask\r\n\t-Protective
         Eyewear\r\n\t-Gloves (examination or utility) \r\n\r\n<b>It\u2019s important
@@ -119,13 +119,12 @@ MonoBehaviour:
     Image: {fileID: 21300000, guid: 98a8b025b1ba0a84296aa95d7f93ab0f, type: 3}
     Content:
     - RichText: "<b>Room disinfection is the process in which we clean all contaminated
-        surfaces.</b>\r\n\r\n<#2899CC><b>What you need:</b></color>\r\n\r\n\t-PPE
-        (with utility gloves)\r\n\t-Disinfectant towelette\r\n\t-Surface barriers\r\n\t-Scrub
-        brush\r\n\t-Ultrasonic\r\n\t-Drying cloth\r\n\t-Sterilization pouches/bags\r\n\t-Trashcan\r\n\r\n<b>Steps
-        to follow when disinfecting a room.</b>\r\n\r\n<#FDB924><b>Steps:</b></color>\r\n\r\n\t1)
-        Wear PPE.\r\n\t2) Carefully remove each barrier.\r\n\t3) Discard used barriers
-        into trash.\r\n\t4) Remove and discard contaminated gloves \n\tand wash hands.\r\n\t5)
-        Using utility gloves, obtain a disinfectant \n\ttowelette and close container.\r\n\t6)
+        surfaces.</b>\r\n\r\n<#2899CC><b>What you need:</b></color>\r\n\r\n\t-PPE\n\t-Disinfectant
+        towelette\r\n\t-Surface barriers\r\n\r\n<b>Steps to follow when disinfecting
+        a room.</b>\r\n\r\n<#FDB924><b>Steps:</b></color>\r\n\r\n\t1) Wear PPE.\r\n\t2)
+        Carefully remove each barrier.\r\n\t3) Discard used barriers into trash.\r\n\t4)
+        Remove and discard contaminated gloves \n\tand wash hands.\r\n\t5) Using
+        utility gloves, obtain a disinfectant \n\ttowelette and close container.\r\n\t6)
         Wipe the surface and disregard towelette.\r\n\t7) Grab a new towelette.\r\n\t8)
         Wipe surface again and disregard towelette.\r\n\t9) Let surface dry.\r\n\t10)
         Remove utility gloves and wash hands.\r\n\t11) Place new barriers in surfaces.\r\n"
@@ -200,7 +199,7 @@ MonoBehaviour:
         Turn cup to fit the buccal/facial and lingual surfaces \r\n\tfor each tooth.
         \r\n\t10) Reapply prophy paste frequently.\r\n\t11) Provide water as needed
         with air/water syringe.\r\n\t12) Suction as needed with saliva ejector.\r\n\t13)
-        Use floss to polish inter-proximal areas."
+        Use floss to polish interproximal areas."
       Image: {fileID: 0}
   - Category: 5
     Title: Sealants
