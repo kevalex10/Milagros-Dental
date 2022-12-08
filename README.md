@@ -3,8 +3,8 @@ A rich mobile app that provides educational lessons and videos for beginner dent
 
 For any help or assistance with the app please email: info@dreamdot.io
 
-#iOS App Store:
+# iOS App Store:
 https://apps.apple.com/tt/app/dental-assistant-training/id1616587239
 
-#Google Play Store:
+# Google Play Store:
 https://play.google.com/store/apps/details?id=com.DreamDot.MilagrosDental&pli=1
